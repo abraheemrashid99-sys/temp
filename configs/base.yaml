@@ -1,0 +1,6 @@
+# Paths shared by every script. All paths are relative to the repository root.
+paths:
+  raw: data/raw
+  processed: data/processed
+  splits: data/splits
+  outputs: outputs
