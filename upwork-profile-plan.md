@@ -172,7 +172,7 @@ The API returned your entries without dates or descriptions, so each will be re-
 9. **Industry Trainer, IBA CICT (2026)** — Agentic AI and Intelligent Automation programme for MOL Group.
 10. **Open source** — TokenGuard (github.com/Abraheem13/TokenGuard), risk-controlled early exit for reasoning LLMs.
 
-Note: the API does not return your existing "Other experiences", so I cannot see whether any of these are already there. After adding, check the public profile once for duplicates.
+**Outcome (21 Oct):** the connector's "Other experiences" writes do not appear in Upwork's UI, so the 10 API entries were removed again. The profile keeps the 4 hand-made entries that were already there (Best Paper Award / Selections and Honours / Publications and Peer Review / Teaching and Supervision). Manual to-do on upwork.com: fix the duplicated text in "Teaching and Supervision", and add two entries: "Certifications" and "Open source: TokenGuard" (text in section 3.7, items 7 and 10).
 
 ### 3.8 Availability
 
