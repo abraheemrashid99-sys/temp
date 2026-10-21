@@ -1,6 +1,6 @@
 # Upwork Profile Plan — Abraheem Rashid
 
-Prepared 21 Oct 2026. Nothing below has been applied to your profile yet.
+Prepared 21 Oct 2026. **Status: applied to the live profile on 21 Oct 2026** with these decisions: title option A; rate kept at $50 for now; Neura-X kept inside the personal profile and running to Present; TRL from Jan 2025; Global Exports removed as a job (kept in portfolio and inside the Neura-X entry); IBA CICT May 2026; MSc with Distinction (Sep 2024 – Sep 2026); AWS Certified Solutions Architect added to the proof line; LinkedIn certifications and honours added. Remaining items are the upwork.com-only actions in section 3.9.
 
 ---
 
