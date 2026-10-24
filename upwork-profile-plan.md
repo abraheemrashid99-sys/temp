@@ -188,6 +188,22 @@ Unchanged: "More than 30 hrs/week" (full time). You asked to keep 30–40 hours;
 
 ---
 
+## 3.10 Credibility audit (24 Oct) — applied
+
+Read the live profile as a sceptical client would. Fixed through the connector:
+- Overview opening line was close to a phrase used by a well-known UK Top Rated profile ("where a wrong answer costs real money"); rewritten in original wording.
+- Overview said "in London" while the profile location shows Slough; now "based in the UK (London area)".
+- "the Gulf" replaced with the specific "UAE"; "programme" wording for Global Exports replaced with "three-month engagement".
+- Neura-X title "Principal AI Engineer" (inflated for a one-person consultancy) changed to "Founder & Lead AI Engineer", matching the CV's "Technical Lead".
+- Neura-X description no longer claims the ERP sync and APEX migration (not confirmed as delivered); keeps only the verified extraction and MCP work.
+- Curium description rewritten to concrete tasks instead of three adjectives.
+- MSc supervisor "Prof." changed to "Dr." (the safer form; both CVs disagree).
+
+Manual (upwork.com only):
+- Other experiences → "UK Quantum Hackathon": change "recognised for outstanding contribution" to plain "Selected participant"; selection is not an award.
+- Other experiences → delete the "Certifications" entry: IELTS, Linux Unhatched and a Power Automate beginner workshop dilute a senior profile. Add AWS Certified Solutions Architect in the proper Certifications section instead (credential ID 08b0af7733364b31a05cc3f4de66aaca) so it carries the verified badge.
+- Kept: "Senior" in the title. Defensible on the record (led a national-scale system, technical lead and founder roles, Best Paper), and it is the market term clients search; the employment history shows the actual role names.
+
 ## 4. Plan to reach 5–6 new clients a month
 
 Honest framing: 5–6 clients/month from a zero-history profile is a 3–4 month build, not a first-month outcome. The fast risers in the sample reached $20–30K in their first year with 5–8 jobs; the mechanism is below.
