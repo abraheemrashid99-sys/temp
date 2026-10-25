@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+data/raw/
+data/processed/
+data/eicu/
+data/mimic/
+data/medmnist/
+results/determinism/
+paper/*.aux
+paper/*.bbl
+paper/*.blg
+paper/*.log
+paper/*.out
+paper/*.toc
+.DS_Store
