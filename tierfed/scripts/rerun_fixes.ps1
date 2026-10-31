@@ -55,6 +55,9 @@ if ($Part -eq "gpu") {
   Drop "diabetes_*_fixed_*_architecture_*"
   Drop "medmnist_cnn_fixed_*"
   & $py -m src.experiments.run_ablation --kind architecture --dataset diabetes --seeds 42 43 44 45 46 --device cuda --out results
+  & $py -m src.experiments.run_benchmark --dataset medmnist --model cnn `
+      --dataset-kwargs '{\"flag\":\"pneumoniamnist\",\"partition\":\"dirichlet\",\"alpha\":0.3,\"min_size\":50}' `
+      --strategies fixed --seeds 42 43 44 45 46 47 48 49 50 51 --device cuda --out results
 }
 
 & $py -m src.analysis.collect --results results --dataset diabetes --model mlp
