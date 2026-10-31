@@ -15,6 +15,7 @@
 (v) The inversion attack is generic, the DP budgets are large, and neither should be read as a privacy guarantee.
 (vi) Full participation is assumed; partial participation would add a sampling term to (\ref{eq:bound}) and permit subsampling amplification in (\ref{eq:rdp}).
 (vii) The FT-Transformer arm was trained with a non-deterministic GPU attention kernel; all other results are bit-reproducible.
-(viii) Ten seeds on one public tabular dataset and one imaging collection is a benchmark, not a clinical validation.
+(viii) On the imaging benchmark under strong label skew, the methods that share the classifier head are the most accurate and both head-private methods trail them; the results here do not transfer to that setting.
+(ix) Ten seeds on one public tabular dataset and one imaging collection is a benchmark, not a clinical validation.
 
 \textbf{Practical guidance.} For a tabular model of this size, an operator who needs a byte budget should set $\rho$ from the transfer window through (\ref{eq:compose}) and (\ref{eq:netcost}), compose the schedule with 8-bit quantisation or sparse ternary compression with error feedback, and, when client-level DP is required, prefer the sparsest schedule that meets the accuracy target, because each transmitting round is charged against the privacy budget.
