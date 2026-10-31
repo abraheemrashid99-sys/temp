@@ -50,9 +50,10 @@ if ($Part -eq "cpu") {
 }
 
 if ($Part -eq "gpu") {
-  # architecture 'fixed' arms (all three backbones) and the transformer arm (deterministic attention)
+  # architecture 'fixed' arms only (all three backbones); the other transformer runs are kept and
+  # reported with a note that they used the non-deterministic fused attention kernel
   Drop "diabetes_*_fixed_*_architecture_*"
-  Drop "diabetes_transformer_*_architecture_*"
+  Drop "medmnist_cnn_fixed_*"
   & $py -m src.experiments.run_ablation --kind architecture --dataset diabetes --seeds 42 43 44 45 46 --device cuda --out results
 }
 
